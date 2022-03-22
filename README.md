@@ -39,6 +39,26 @@
 
 5. 예매 페이지 by. [윤종호](https://github.com/myway8907)
    ![bookingpage](https://user-images.githubusercontent.com/66506477/150679205-b99c68ed-0907-4e31-9f14-a6bd4eccc5d1.gif)
+   
+✔️ **UI 기획 및 구현**
+- 참조 사이트를 기반으로 하여 UI 기획
+- `React-scroll` 등의 라이브러리 활용하여 페이지 스타일링
+
+✔️ **공통 컴포넌트를 재사용하여 예매 옵션 목록 구현**
+- props로 전달되는 내용에 따라 상황에 맞는 내용이 화면에 렌더링 되도록 구현
+
+✔️ `**Styled-components`를 이용하여 반복 사용되는 공통 스타일링 컴포넌트 제작 및 활용**
+
+✔️ `**transition & transform` 속성을 사용하여 커서 이동 시 목록 요소들의 사용자 반응 스타일링**
+
+✔️ **예매 프로세스 기획 및 구현**
+- 반복 사용되는 함수들을 컴포넌트에서 분리하여 모듈화 및 재사용
+- `React state` 하나를 변화의 구심점으로 삼아, 사용자가 선택한 영화 상영 옵션들이 저장되도록 구성
+- 옵션 선택이 저장된 state의 변화에 따라 선택한 옵션 이외의 옵션들이 그에 반응하도록 구현
+- 다양한 상황마다 필요한 state를 생성하지 않고, 단일 state를 중심으로 변화가 돌아가도록 구현하여 불필요한 state 생성을 예방하고 state 관리 최소화
+- **빠른 코드 작성 보다 명확한 로직을 확립을 지향**
+- ![image](https://user-images.githubusercontent.com/93215875/159452030-279071ce-f3a1-4eac-81e8-e47dd390a6b3.png)
+
 
 # Reference
 
